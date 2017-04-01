@@ -1,0 +1,16 @@
+/*Setting width to border-box using box-sizing*/
+
+*,
+*:before,
+*:after
+{
+    box-sizing: border-box;
+}
+
+/*container styling*/
+
+.container{
+    margin:0 auto;
+    padding:0 30px;
+    width: 960px;
+}

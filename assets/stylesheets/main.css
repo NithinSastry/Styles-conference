@@ -37,3 +37,27 @@ h1, h3, h4, h5, p {
 .hero{
     padding: 22px 80px 66px 80px;
 }
+
+
+/*Clear-fix */
+.group{
+    clear:both;
+}
+
+.group::after{
+    clear: both;
+}
+
+.logo{
+    float: left;
+    border-top: 4px solid #648880;
+    padding: 40px 0 22px 0px;
+}
+
+.primary-footer small{
+    float:left;
+}
+
+.primary-footer{
+    padding: 44px 0;
+}
